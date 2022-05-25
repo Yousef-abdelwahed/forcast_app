@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+
+</head>
+  
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container ">
+            <a class="navbar-brand text-white " href="#"><img src="image/image1.png" alt="logo"></a>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class=" navbar-nav d-block navbtn ">
+                    <li class="nav-item ">
+                        <a class="btn btn-outline-primary rounded-circle  text-white " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="#">News</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact </a>
+                        </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="main-image">
+        <div>
+         <div class="container">
+                <div class="row "> 
+                    <div class="main-search">
+                    <div class="col-md-12 text-center  m-auto ">
+                        <form action="" class="find-location">
+                            <!-- search -->
+                            <input type="text"id="serach" class=" form-control  bg-transparent" placeholder="find your location" >
+                            <input type="button" value="Find" id="submit">
+                        </form>
+                </div>
+            </div>
+            <!-- today -->
+           <div class="d-flex justify-content-around text-start">    
+                <div class="card  bg-warning" style="width: 18rem;">
+                    <div class="forcast text-muted">
+                        <div class="forcast-header text-muted ">
+                            <div id="" class="nextDay float-start p-2" ></div>
+                            <div id="dateOfWeather" class=" float-end p-2"></div>
+                        </div>
+                        <div class="forcast-container">
+                            <div class="card-body">
+                                <h5 id="cityLocation" class=" card-title my-5 text-white"></h5>
+                                <h6 class="card-subtitle mb-2 text-muted text-center "id="forcast-degry ">
+                                <div class="degree text-white">   
+                                    <div  class="forcast-icon" >
+                                        <img id="todayIcon" alt="">
+                                    </div>
+                                <div id="todayDegree" class="num    ">
+                                  
+                                </div>
+                               
+                                <div id="todayDesciption" class="custom text-start py-2">
+                                </div>
+                               <div class="weather-deatils text-start">
+                                <span id="todayhumidity" class="text-muted"> </span> <img src="./image/image3.png" alt="">
+                                <span id="todayWind" class="text-muted"></span><img src="./image/image4.png" alt=""> 
+                                <span id="todayDirection" class="text-muted"> </span><img src="./image/image5.png" alt="">
+                               </div> 
+                         </div> 
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nextday -->
+        <div class="d-flex text-start">    
+            <div class="card  bg-warning" style="width: 18rem;">
+                <div class="forcast text-muted">
+                    <div class="forcast-header text-muted ">
+                        <div  class="nextDay float-start p-2" ></div>
+                        <div  class="nextDayMoth float-end p-2"></div>
+                    </div>
+                    <div class="forcast-container">
+                        <div class="card-body">
+                            <h5 class="nextDayLocation card-title my-5 text-white"></h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center "id="forcast-degry ">
+                            <div class="degree text-white">   
+                                <div class="forcast-icon">
+                                    <img class="nextDayIcon" alt="">
+                                </div>
+                                <div class="num maxforecast">
+                                  
+                                </div>
+                           
+                            <div class="custom text-start py-2">
+                                Partly Cloudy
+                            </div>
+                           <div class="weather-deatils text-start">
+                            <span class="avghumidity text-muted"> </span> <img src="./image/image3.png" alt="">
+                            <span class="maxwind text-muted"> Km/h</span> <img src="./image/image4.png" alt=""> 
+                            <span class="moonPhase text-muted"> </span><img src="./image/image5.png" alt="">
+                           </div> 
+                     </div> 
+                 </div>
+            </div>
+        </div>
+    </div>
+   </div>   
+   <!-- thirdday -->
+   <div class="d-flex text-start">    
+    <div class="card  " style="width: 18rem;">
+        <div class="forcast text-muted">
+            <div class="forcast-header text-muted ">
+                
+                <div class=" nextDay float-start p-2 " ></div>
+
+                <div class="nextDayMoth float-end p-2"></div>
+            </div>
+            <div class="forcast-container">
+                <div class="card-body">
+                    <h5 class="nextDayLocation card-title my-5 text-white"> 
+                         
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted text-center "id="forcast-degry ">
+                    <div class="degree text-white">   
+                        <div class="forcast-icon">
+                            <img class="nextDayIcon" alt="">
+                        </div>
+                        <div class="num maxforecast">
+                            <sub>o</sub>c
+                        </div>
+                   
+                    <div class="custom text-start py-2">
+                        Partly Cloudy
+                    </div>
+                   <div class="weather-deatils text-start">
+                    <span class="avghumidity text-muted">  </span><img src="./image/image3.png" alt="">
+                    <span class="maxwind text-muted"> </span><img src="./image/image4.png" alt="">
+                    <span class="moonPhase text-white fs-6"> </span><img src="./image/image5.png" alt="">
+                   </div> 
+             </div> 
+         </div>
+    </div>
+</div>
+</div>
+</div>
+       </div> 
+                
+</div>
+</div>
+    <div>
+            </div>       
+    </div>
+</div>
+         <script src="main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+  
